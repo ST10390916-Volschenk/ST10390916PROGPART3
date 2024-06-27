@@ -1,15 +1,8 @@
-##ST10390916 PROG POE PART 2
-
-The following improvements were made based on the feedback from Part 1:
- - Coloured text has been added to highlight messages users need to look at.
- - The conversion from tablespoons to cups and vise versa has been added.
- - The amount of comments were increased to describe what different parts of the application is for.
- - More references were added for the parts I had done research on.
- - The readme is also improved with detailed instructions on how to run the project.
+##ST10390916 PROG POE PART 3
 
 
 #How to run the project:
- 1. Go to the following GitHub repository: https://github.com/ST10390916-Volschenk/ST10390916PROGPOE.git
+ 1. Go to the following GitHub repository: https://github.com/ST10390916-Volschenk/ST10390916PROGPART3.git
  2. Locate the following button:
  ![Code button](codeImage.png)
  1. Once you click the <> Code button you will see the following menu:
@@ -17,11 +10,17 @@ The following improvements were made based on the feedback from Part 1:
  1. Click 'Download ZIP' and save it in the location of your choice.
  1. Locate the ZIP file in your file explorer and extract all the files.
  1. Once you have extracted all the files, open the folder and locate the .sln file.
- ![Menu](fileImage.png)
+ ![File](fileImage.png)
  1. Open the file using Visual Studio (To install Visual Studio, visit https://visualstudio.microsoft.com/downloads/)
  1. Once the project is open in Visual Studio, locate the 'Start' button in the ribbon at the top of the application.
- ![Menu](startImage.png)
+ ![Start](startImage.png)
  1. Click the button to run the application.
+
+The application has 2 main interfaces namely: the Create recipe interface and the View recipe interface.
+ ![create](create.png)
+ ![view](view.png)
+
+
 
 Github repository:
 https://github.com/ST10390916-Volschenk/ST10390916PROGPOE.git
