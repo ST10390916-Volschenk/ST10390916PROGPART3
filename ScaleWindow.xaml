@@ -1,0 +1,29 @@
+﻿<Window x:Class="ST10390916PROGPART3.ScaleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10390916PROGPART3"
+        mc:Ignorable="d"
+        Title="ScaleWindow" Height="150" Width="250">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Text="Enter the amount you want to scale the recipe by:" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="3" TextWrapping="Wrap"/>
+        <TextBox x:Name="txtScale" Grid.Row="2" Grid.ColumnSpan="3"/>
+        <Button Content="OK" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" Click="Button_Click"/>
+
+    </Grid>
+</Window>
