@@ -22,7 +22,7 @@ The application has 2 main interfaces namely: the Create recipe interface and th
 
 
 
-Github repository:
+Github repository for PART 1 and PART 2:
 https://github.com/ST10390916-Volschenk/ST10390916PROGPOE.git
 
 References used in project: 
